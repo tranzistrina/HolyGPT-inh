@@ -1,4 +1,4 @@
-FROM ./holygpt-inh-step23837-f16.gguf
+FROM ./model/holygpt-inh-step23837-f16.gguf
 TEMPLATE "{{ .Prompt }}"
 PARAMETER num_ctx 512
 PARAMETER temperature 0.8
