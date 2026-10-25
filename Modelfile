@@ -1,0 +1,7 @@
+FROM ./holygpt-inh-step23837-f16.gguf
+TEMPLATE "{{ .Prompt }}"
+PARAMETER num_ctx 512
+PARAMETER temperature 0.8
+PARAMETER top_k 40
+PARAMETER repeat_penalty 1.1
+PARAMETER num_predict 128
